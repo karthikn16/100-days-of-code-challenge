@@ -1,0 +1,61 @@
+body{}
+.ton
+{
+    color: rgb(12, 12, 12);
+}
+.a1{
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 0, 0);
+    border: none;
+    height: 26px;
+    width: 100px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: opacity 1s;
+    ;
+}
+.a1:hover{
+    opacity: 0.4;
+
+}
+.a1:active{
+    opacity: 0.3;
+}
+.a2{
+    color: rgb(68, 220, 243);
+    background-color: rgb(241, 235, 235);
+    border:solid;
+    height: 26px;
+    
+    width: 60px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.a2:hover{
+    opacity: 0.5;
+    background-color: blue;
+    color:aliceblue
+    transition:background-color 5s;
+    transition: box-shadow 5s;
+}
+.a2:active{
+    opacity: 0.4;
+}
+.a3{
+    color: rgb(255, 255, 255);
+    background-color: rgb(65, 142, 243);
+    border: solid;
+    height: 36px;
+    width: 80px;
+    border-radius: 18px;
+    cursor: pointer;
+    
+}
+.a3:hover{
+   opacity: 0.5;
+   transition: opactiy 0.2s;
+}
+.a3:active{
+    opacity: 0.4;
+}
